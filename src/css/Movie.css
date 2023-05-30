@@ -1,0 +1,36 @@
+.movie_details{
+  float: left;
+  margin:10px;
+  padding:10px;
+  border:2px solid black;
+ box-shadow: 5px 10px #888888;
+ text-align: center;
+ 
+    }
+  
+    .image{
+      
+      width:300px;
+      height:300px; 
+      padding:5px;
+      cursor:pointer;
+      border:2px solid black;
+    }
+  
+    .name{
+      color: blue;
+      text-shadow: 2px 2px 4px #000000;
+      font-weight: bolder;
+      font-size: larger;
+    }
+    
+  
+    .heading1{
+      text-align: center;
+      text-shadow: 2px 1px 1px red;
+    }
+   
+    .button{
+        display: flex;
+        justify-content: space-around;
+    }

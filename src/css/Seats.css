@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.SingleSeat{
+width:70px ;
+height: 70px;
+background-color: red;
+text-align: center;
+color: white;
+border: 1px solid white;
+display: flex;
+justify-content: center;
+align-items: center;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+margin: 3px 3px;
+cursor: pointer;
+}
+
+.bookedSeat{
+    width:70px ;
+    height: 70px;
+    background-color: green;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: 3px 3px;
+    cursor: pointer;  
+}
